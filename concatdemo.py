@@ -1,0 +1,5 @@
+name = input("Enter a name ")
+print('name')
+print( name)
+print("Hi " + name)
+print(10 * (name + " "))
