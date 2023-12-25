@@ -11,6 +11,10 @@ for i in range(100, 25, -7):
     print(i, end=" ")
 print()
 
+for i in range(10, 25, 1):
+    print(i+1, end=" ")
+print()
+
 # print the list
 days = ["monday", "tuesday", "wednesday", "tuesday"]
 for i in range(len(days)):
