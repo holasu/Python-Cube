@@ -1,12 +1,13 @@
-class Computer:
-    def config(self):
-        print("Hello world")
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hi(self):
+        print("Hi,This is ", self.name)
 
 
-com1 = Computer()
-com2 = Computer()
-Computer.config(com1)
-Computer.__eq__(com2, com1)
-com1.config()
-
-
+p1 = Person('Sudheera')
+p2 = Person('Wishmi')
+Person.say_hi(p1)
+p1.say_hi()
+p2.say_hi()
