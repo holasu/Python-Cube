@@ -8,5 +8,3 @@ print(int(numbin, 2))
 print(bin(num))
 print(oct(num))
 print(hex(num))
-
-
